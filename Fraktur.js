@@ -52,7 +52,7 @@ let decorMap = {
   y: "𝔶",
   z: "𝔷"
 };
-function Fraktur(userName) {
+function sayHello(userName) {
   let decorname = "";
   for (let i = 0; i < userName.length; i++) {
     let char = userName[i];
