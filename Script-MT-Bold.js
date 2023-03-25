@@ -51,6 +51,7 @@ const decorMap = {
   x: "𝓍",
   y: "𝓎",
   z: "𝓏",
+
 };
 
 
@@ -60,6 +61,8 @@ function MTBold(userName) {
     let char = userName[i];
     if (decorMap[char]) {
       decorname += decorMap[char];
+    } else {
+      result += char;
     }
   }
   return decorname;
