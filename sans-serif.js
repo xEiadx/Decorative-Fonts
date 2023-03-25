@@ -53,7 +53,7 @@ let decorMap = {
   z: "𝐳"
 };
 
-function sayHello(userName) {
+function serif(userName) {
   let decorname = "";
   for (let i = 0; i < userName.length; i++) {
     let char = userName[i];
@@ -64,4 +64,4 @@ function sayHello(userName) {
   return decorname;
 }
 
-exports.sayHello = sayHello;
+exports.serif = serif;
