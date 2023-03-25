@@ -15,5 +15,22 @@ npm i decorative-fonts.js
 ```javascript
 const DecorativeFont = require("decorative-fonts.js")
 
-console.log(DecorativeFont.Fraktur)```
+console.log(DecorativeFont.Fraktur("Decorative-Fonts")) // Output: '𝔇𝔢𝔠𝔬𝔯𝔞𝔱𝔦𝔳𝔢-𝔉𝔬𝔫𝔱𝔰'
+```
+
+> Replace letters with Script-MT-Bold Font
+
+```javascript
+const DecorativeFont = require("decorative-fonts.js")
+
+console.log(DecorativeFont.MTBold("Decorative-Fonts")) // Output: '𝔇𝔢𝔠𝔬𝔯𝔞𝔱𝔦𝔳𝔢-𝔉𝔬𝔫𝔱𝔰'
+```
+
+> Replace letters with Edwardian Font
+
+```javascript
+const DecorativeFont = require("decorative-fonts.js")
+
+console.log(DecorativeFont.Edwardian("Decorative-Fonts")) // Output: '𝔇𝔢𝔠𝔬𝔯𝔞𝔱𝔦𝔳𝔢-𝔉𝔬𝔫𝔱𝔰'
+```
 
