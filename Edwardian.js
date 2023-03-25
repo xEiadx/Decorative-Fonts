@@ -65,4 +65,4 @@ function Edwardian(userName) {
   return decorname;
 }
 
-module.exports = Edwardian;
+exports.Edwardian = Edwardian;
