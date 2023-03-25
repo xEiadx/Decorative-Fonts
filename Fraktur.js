@@ -59,7 +59,7 @@ function Fraktur(userName) {
     if (decorMap[char]) {
       decorname += decorMap[char];
     } else {
-      result += char;
+      result += decorname;
     }
   }
   return decorname;
