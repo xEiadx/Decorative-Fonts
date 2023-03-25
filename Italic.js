@@ -53,7 +53,7 @@ let decorMap = {
   z: "𝘻",
 };
 
-function inclined(userName) {
+function Italic(userName) {
   let decorname = "";
   for (let i = 0; i < userName.length; i++) {
     let char = userName[i];
@@ -64,4 +64,4 @@ function inclined(userName) {
   return decorname;
 }
 
-module.exports = inclined;
+module.exports = Italic;
