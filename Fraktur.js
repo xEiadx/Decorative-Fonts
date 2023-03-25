@@ -65,4 +65,5 @@ function Fraktur(userName) {
   return decorname;
 }
 
-module.exports = Fraktur;
+exports.Edwardian = Edwardian;
+
