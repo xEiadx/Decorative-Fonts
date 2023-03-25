@@ -64,4 +64,4 @@ function serif(userName) {
   return decorname;
 }
 
-exports.serif = serif;
+module.exports = serif;
