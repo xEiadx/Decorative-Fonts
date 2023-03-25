@@ -23,7 +23,11 @@ console.log(DecorativeFont.Fraktur("Decorative-Fonts")) // Output: '𝔇𝔢𝔠
 ```javascript
 const DecorativeFont = require("decorative-fonts.js")
 
+<<<<<<< HEAD
 console.log(DecorativeFont.MTBold("Decorative-Fonts")) // Output: '𝒟ℯ𝒸ℴ𝓇𝒶𝓉𝒾𝓋ℯ-ℱℴ𝓃𝓉𝓈'
+=======
+console.log(DecorativeFont.MTBold("Decorative-Fonts")) // Output: '𝔇𝔢𝔠𝔬𝔯𝔞𝔱𝔦𝔳𝔢-𝔉𝔬𝔫𝔱𝔰'
+>>>>>>> 9a8384a83981040bfd13308f619cc03a526ae773
 ```
 
 > Replace letters with Edwardian Font
@@ -31,6 +35,7 @@ console.log(DecorativeFont.MTBold("Decorative-Fonts")) // Output: '𝒟ℯ𝒸�
 ```javascript
 const DecorativeFont = require("decorative-fonts.js")
 
+<<<<<<< HEAD
 console.log(DecorativeFont.Edwardian("Decorative-Fonts")) // Output: '𝓓𝓮𝓬𝓸𝓻𝓪𝓽𝓲𝓿𝓮-𝓕𝓸𝓷𝓽𝓼'
 ```
 
@@ -65,3 +70,8 @@ const DecorativeFont = require("decorative-fonts.js")
 
 console.log(DecorativeFont.Italic("Decorative-Fonts")) // Output: '𝘋𝘦𝘤𝘰𝘳𝘢𝘵𝘪𝘷𝘦-𝘍𝘰𝘯𝘵𝘴'
 ```
+=======
+console.log(DecorativeFont.Edwardian("Decorative-Fonts")) // Output: '𝔇𝔢𝔠𝔬𝔯𝔞𝔱𝔦𝔳𝔢-𝔉𝔬𝔫𝔱𝔰'
+```
+
+>>>>>>> 9a8384a83981040bfd13308f619cc03a526ae773
