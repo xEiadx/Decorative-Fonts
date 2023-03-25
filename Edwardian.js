@@ -58,7 +58,9 @@ let decorMap = {
      let char = userName[i];
      if (decorMap[char]) {
        decorname += decorMap[char];
-     } 
+     }  else {
+      decorname += char;
+    }
    }
    return decorname;
  }

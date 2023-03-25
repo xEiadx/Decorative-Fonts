@@ -59,9 +59,11 @@ function bold(userName) {
     let char = userName[i];
     if (decorMap[char]) {
       decorname += decorMap[char];
-    }
+    }  else {
+     decorname += char;
+   }
   }
   return decorname;
 }
 
-exports.bold = bold;
+exports.Edwardian = Edwardian;

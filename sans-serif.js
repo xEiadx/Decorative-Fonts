@@ -59,9 +59,11 @@ function serif(userName) {
     let char = userName[i];
     if (decorMap[char]) {
       decorname += decorMap[char];
-    }
+    }  else {
+     decorname += char;
+   }
   }
   return decorname;
 }
 
-module.exports = serif;
+exports.Edwardian = Edwardian;
