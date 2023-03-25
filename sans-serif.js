@@ -66,4 +66,4 @@ function serif(userName) {
   return decorname;
 }
 
-exports.Edwardian = Edwardian;
+exports.serif = serif;

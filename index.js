@@ -1,3 +1,3 @@
-const DecorativeFont = require("./Edwardian.js")
+const DecorativeFont = require("./Italic.js")
 
-console.log(DecorativeFont.Edwardian("Decorative-Fonts"))
+console.log(DecorativeFont.Italic("Decorative-Fonts"))

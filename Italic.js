@@ -66,4 +66,4 @@ function Italic(userName) {
   return decorname;
 }
 
-exports.Edwardian = Edwardian;
+exports.Italic = Italic;

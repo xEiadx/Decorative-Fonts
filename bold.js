@@ -66,4 +66,4 @@ function bold(userName) {
   return decorname;
 }
 
-exports.Edwardian = Edwardian;
+exports.bold = bold;

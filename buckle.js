@@ -65,4 +65,4 @@ function buckle(userName) {
   return decorname;
 }
 
-exports.Edwardian = Edwardian;
+exports.buckle = buckle;

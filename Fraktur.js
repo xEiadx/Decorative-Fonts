@@ -52,7 +52,7 @@ let decorMap = {
   y: "𝔶",
   z: "𝔷"
 };
-function sayHello(userName) {
+function Fraktur(userName) {
   let decorname = "";
   for (let i = 0; i < userName.length; i++) {
     let char = userName[i];
@@ -65,4 +65,4 @@ function sayHello(userName) {
   return decorname;
 }
 
-exports.Edwardian = Edwardian;
+exports.Fraktur = Fraktur;

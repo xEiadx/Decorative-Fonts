@@ -67,4 +67,4 @@ function MTBold(userName) {
   return decorname;
 }
 
-exports.Edwardian = Edwardian;
+exports.MTBold = MTBold;
