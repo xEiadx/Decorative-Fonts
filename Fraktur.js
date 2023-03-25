@@ -58,6 +58,8 @@ function Fraktur(userName) {
     let char = userName[i];
     if (decorMap[char]) {
       decorname += decorMap[char];
+    } else {
+      result += char;
     }
   }
   return decorname;
