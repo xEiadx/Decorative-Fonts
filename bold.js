@@ -59,15 +59,12 @@ function bold(userName) {
     let char = userName[i];
     if (decorMap[char]) {
       decorname += decorMap[char];
-<<<<<<< HEAD
+
     }  else {
      decorname += char;
    }
-=======
-    } else {
-      decorname += char;
-    }
->>>>>>> 9a8384a83981040bfd13308f619cc03a526ae773
+
+
   }
   return decorname;
 }
