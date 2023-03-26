@@ -1,4 +1,4 @@
-# Decorative-Fonts.js
+# Decorative-Fonts
 
 Decorative-Fonts.js is a library that Decorative Fonts with different ways
 
