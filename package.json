@@ -1,0 +1,22 @@
+{
+  "name": "decorative-fonts",
+  "version": "1.0.4",
+  "description": "Decorative-Fonts is a library that Decorative Fonts with different ways",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xEiadx/Decorative-Fonts.git"
+  },
+  "keywords": [
+    "Fonts"
+  ],
+  "author": "xEiadx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xEiadx/Decorative-Fonts/issues"
+  },
+  "homepage": "https://github.com/xEiadx/Decorative-Fonts#readme"
+}
