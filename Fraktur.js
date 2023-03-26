@@ -69,6 +69,5 @@ function Fraktur(userName) {
 
 
 exports.Fraktur = Fraktur;
-exports.Edwardian = Edwardian;
 
 
