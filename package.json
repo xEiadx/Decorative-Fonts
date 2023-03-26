@@ -1,8 +1,8 @@
 {
-  "name": "decorative-fonts",
-  "version": "1.0.0",
+  "name": "decorative-fonts.js",
+  "version": "1.0.2",
   "description": "Decorative-Fonts.js is a library that provides different decorative fonts.",
-  "main": "bold.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,12 +11,17 @@
     "url": "git+https://github.com/xEiadx/Decorative-Fonts.js.git"
   },
   "keywords": [
-    "Fonts"
+    "Fonts",
+    "Decorative",
+    "Fonts-Decorative"
   ],
   "author": "xEiadx",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/xEiadx/Decorative-Fonts.js/issues"
   },
-  "homepage": "https://github.com/xEiadx/Decorative-Fonts.js#readme"
+  "homepage": "https://github.com/xEiadx/Decorative-Fonts.js#readme",
+  "dependencies": {
+    "decorative-fonts.js": "^1.0.2"
+  }
 }
