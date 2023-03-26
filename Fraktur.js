@@ -1,1 +1,69 @@
-const _0x5a1182=_0x32a3;function _0x32a3(_0xd69a3b,_0x425f68){const _0x5ea6dd=_0x5ea6();return _0x32a3=function(_0x32a3ba,_0xd6d77f){_0x32a3ba=_0x32a3ba-0xc3;let _0x401386=_0x5ea6dd[_0x32a3ba];return _0x401386;},_0x32a3(_0xd69a3b,_0x425f68);}(function(_0x4f9172,_0x57dbf3){const _0x738b06=_0x32a3,_0x473fcd=_0x4f9172();while(!![]){try{const _0x427995=parseInt(_0x738b06(0xcb))/0x1+parseInt(_0x738b06(0xc5))/0x2+-parseInt(_0x738b06(0xca))/0x3*(-parseInt(_0x738b06(0xcc))/0x4)+parseInt(_0x738b06(0xc3))/0x5*(parseInt(_0x738b06(0xc9))/0x6)+-parseInt(_0x738b06(0xc8))/0x7+-parseInt(_0x738b06(0xc7))/0x8*(parseInt(_0x738b06(0xce))/0x9)+parseInt(_0x738b06(0xcd))/0xa;if(_0x427995===_0x57dbf3)break;else _0x473fcd['push'](_0x473fcd['shift']());}catch(_0x49e5f7){_0x473fcd['push'](_0x473fcd['shift']());}}}(_0x5ea6,0x9fdf4));let decorMap={'A':'𝔄','B':'𝔅','C':'ℭ','D':'𝔇','E':'𝔈','F':'𝔉','G':'𝔊','H':'ℌ','I':'ℑ','J':'𝔍','K':'𝔎','L':'𝔏','M':'𝔐','N':'𝔑','O':'𝔒','P':'𝔓','Q':'𝔔','R':'ℜ','S':'𝔖','T':'𝔗','U':'𝔘','V':'𝔙','W':'𝔚','X':'𝔛','Y':'𝔜','Z':'ℨ','a':'𝔞','b':'𝔟','c':'𝔠','d':'𝔡','e':'𝔢','f':'𝔣','g':'𝔤','h':'𝔥','i':'𝔦','j':'𝔧','k':'𝔨','l':'𝔩','m':'𝔪','n':'𝔫','o':'𝔬','p':'𝔭','q':'𝔮','r':'𝔯','s':'𝔰','t':'𝔱','u':'𝔲','v':'𝔳','w':'𝔴','x':'𝔵','y':'𝔶','z':'𝔷'};function Fraktur(_0x146ae1){const _0x4e51aa=_0x32a3;let _0x35759e='';for(let _0x1c7721=0x0;_0x1c7721<_0x146ae1[_0x4e51aa(0xc4)];_0x1c7721++){let _0x12b090=_0x146ae1[_0x1c7721];decorMap[_0x12b090]?_0x35759e+=decorMap[_0x12b090]:result+=_0x35759e;}return _0x35759e;}exports[_0x5a1182(0xc6)]=Fraktur;function _0x5ea6(){const _0xf6ef44=['Fraktur','16VzmEzz','9122351OyieQc','30MZskRN','7011nycNcg','74854wprfPh','616TaRCQr','4407360ihvlsP','4531869OYmTvA','1119970jIUmUk','length','1939306ZcJaFp'];_0x5ea6=function(){return _0xf6ef44;};return _0x5ea6();}
+let decorMap = {
+    A: "𝔄",
+    B: "𝔅",
+    C: "ℭ",
+    D: "𝔇",
+    E: "𝔈",
+    F: "𝔉",
+    G: "𝔊",
+    H: "ℌ",
+    I: "ℑ",
+    J: "𝔍",
+    K: "𝔎",
+    L: "𝔏",
+    M: "𝔐",
+    N: "𝔑",
+    O: "𝔒",
+    P: "𝔓",
+    Q: "𝔔",
+    R: "ℜ",
+    S: "𝔖",
+    T: "𝔗",
+    U: "𝔘",
+    V: "𝔙",
+    W: "𝔚",
+    X: "𝔛",
+    Y: "𝔜",
+    Z: "ℨ",
+    a: "𝔞",
+    b: "𝔟",
+    c: "𝔠",
+    d: "𝔡",
+    e: "𝔢",
+    f: "𝔣",
+    g: "𝔤",
+    h: "𝔥",
+    i: "𝔦",
+    j: "𝔧",
+    k: "𝔨",
+    l: "𝔩",
+    m: "𝔪",
+    n: "𝔫",
+    o: "𝔬",
+    p: "𝔭",
+    q: "𝔮",
+    r: "𝔯",
+    s: "𝔰",
+    t: "𝔱",
+    u: "𝔲",
+    v: "𝔳",
+    w: "𝔴",
+    x: "𝔵",
+    y: "𝔶",
+    z: "𝔷"
+  };
+  function Fraktur(word) {
+    let decorname = "";
+    for (let i = 0; i < word.length; i++) {
+      let char = word[i];
+      if (decorMap[char]) {
+        decorname += decorMap[char];
+      }  else {
+       decorname += char;
+     }
+    }
+    return decorname;
+  }
+  
+  exports.Fraktur = Fraktur;
+  

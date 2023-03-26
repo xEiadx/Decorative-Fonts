@@ -1,1 +1,69 @@
-const _0x47bf45=_0x437c;function _0x3236(){const _0x2ba29d=['Edwardian','2518668njqChP','527178RQIsjf','6522026aQqKdU','4YXAujt','312350SHhRfw','15KquOTe','255251KGQqhy','27SczeDQ','4728024IgBkjX','4663192YHlMAN'];_0x3236=function(){return _0x2ba29d;};return _0x3236();}(function(_0x492fb4,_0x210b6c){const _0x53db6e=_0x437c,_0x5153e8=_0x492fb4();while(!![]){try{const _0x12975d=-parseInt(_0x53db6e(0x132))/0x1*(parseInt(_0x53db6e(0x13a))/0x2)+parseInt(_0x53db6e(0x137))/0x3+parseInt(_0x53db6e(0x134))/0x4+parseInt(_0x53db6e(0x13c))/0x5*(parseInt(_0x53db6e(0x138))/0x6)+parseInt(_0x53db6e(0x139))/0x7+parseInt(_0x53db6e(0x135))/0x8*(-parseInt(_0x53db6e(0x133))/0x9)+parseInt(_0x53db6e(0x13b))/0xa;if(_0x12975d===_0x210b6c)break;else _0x5153e8['push'](_0x5153e8['shift']());}catch(_0x381ff8){_0x5153e8['push'](_0x5153e8['shift']());}}}(_0x3236,0xf16e9));let decorMap={'a':'𝓪','b':'𝓫','c':'𝓬','d':'𝓭','e':'𝓮','f':'𝓯','g':'𝓰','h':'𝓱','i':'𝓲','j':'𝓳','k':'𝓴','l':'𝓵','m':'𝓶','n':'𝓷','o':'𝓸','p':'𝓹','q':'𝓺','r':'𝓻','s':'𝓼','t':'𝓽','u':'𝓾','v':'𝓿','w':'𝔀','x':'𝔁','y':'𝔂','z':'𝔃','A':'𝓐','B':'𝓑','C':'ℭ','D':'𝓓','E':'𝓔','F':'𝓕','G':'𝓖','H':'ℌ','I':'ℑ','J':'𝓙','K':'𝓚','L':'𝓛','M':'𝓜','N':'𝓝','O':'𝓞','P':'𝓟','Q':'𝓠','R':'ℜ','S':'𝓢','T':'𝓣','U':'𝓤','V':'𝓥','W':'𝓦','X':'𝓧','Y':'𝓨','Z':'ℨ'};function _0x437c(_0x5c2a1b,_0x4c8097){const _0x3236f9=_0x3236();return _0x437c=function(_0x437c68,_0x4696e9){_0x437c68=_0x437c68-0x132;let _0x5c9504=_0x3236f9[_0x437c68];return _0x5c9504;},_0x437c(_0x5c2a1b,_0x4c8097);}function Edwardian(_0x55de91){let _0x346abf='';for(let _0x2c02c5=0x0;_0x2c02c5<_0x55de91['length'];_0x2c02c5++){let _0xee6444=_0x55de91[_0x2c02c5];decorMap[_0xee6444]?_0x346abf+=decorMap[_0xee6444]:_0x346abf+=_0xee6444;}return _0x346abf;}exports[_0x47bf45(0x136)]=Edwardian;
+let decorMap = {
+    a: "𝓪",
+     b: "𝓫",
+     c: "𝓬",
+     d: "𝓭",
+     e: "𝓮",
+     f: "𝓯",
+     g: "𝓰",
+     h: "𝓱",
+     i: "𝓲",
+     j: "𝓳",
+     k: "𝓴",
+     l: "𝓵",
+     m: "𝓶",
+     n: "𝓷",
+     o: "𝓸",
+     p: "𝓹",
+     q: "𝓺",
+     r: "𝓻",
+     s: "𝓼",
+     t: "𝓽",
+     u: "𝓾",
+     v: "𝓿",
+     w: "𝔀",
+     x: "𝔁",
+     y: "𝔂",
+     z: "𝔃",
+     A: "𝓐",
+   B: "𝓑",
+   C: "ℭ",
+   D: "𝓓",
+   E: "𝓔",
+   F: "𝓕",
+   G: "𝓖",
+   H: "ℌ",
+   I: "ℑ",
+   J: "𝓙",
+   K: "𝓚",
+   L: "𝓛",
+   M: "𝓜",
+   N: "𝓝",
+   O: "𝓞",
+   P: "𝓟",
+   Q: "𝓠",
+   R: "ℜ",
+   S: "𝓢",
+   T: "𝓣",
+   U: "𝓤",
+   V: "𝓥",
+   W: "𝓦",
+   X: "𝓧",
+   Y: "𝓨",
+   Z: "ℨ"
+   };
+   function Edwardian(word) {
+     let decorname = "";
+     for (let i = 0; i < word.length; i++) {
+       let char = word[i];
+       if (decorMap[char]) {
+         decorname += decorMap[char];
+       }  else {
+        decorname += char;
+      }
+     }
+     return decorname;
+   }
+   
+   exports.Edwardian = Edwardian;
+  

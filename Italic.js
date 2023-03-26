@@ -1,1 +1,69 @@
-const _0x28e257=_0x1ad0;(function(_0x2a44a1,_0xc25d7f){const _0x7dd00a=_0x1ad0,_0x2502a7=_0x2a44a1();while(!![]){try{const _0x533a66=parseInt(_0x7dd00a(0xda))/0x1*(parseInt(_0x7dd00a(0xe1))/0x2)+parseInt(_0x7dd00a(0xe0))/0x3+parseInt(_0x7dd00a(0xde))/0x4+parseInt(_0x7dd00a(0xdf))/0x5+-parseInt(_0x7dd00a(0xdb))/0x6*(parseInt(_0x7dd00a(0xdc))/0x7)+parseInt(_0x7dd00a(0xd8))/0x8+-parseInt(_0x7dd00a(0xdd))/0x9;if(_0x533a66===_0xc25d7f)break;else _0x2502a7['push'](_0x2502a7['shift']());}catch(_0x20cde9){_0x2502a7['push'](_0x2502a7['shift']());}}}(_0x2701,0x7ecf9));let decorMap={'A':'𝘈','B':'𝘉','C':'𝘊','D':'𝘋','E':'𝘌','F':'𝘍','G':'𝘎','H':'𝘏','I':'𝘐','J':'𝘑','K':'𝘒','L':'𝘓','M':'𝘔','N':'𝘕','O':'𝘖','P':'𝘗','Q':'𝘘','R':'𝘙','S':'𝘚','T':'𝘛','U':'𝘜','V':'𝘝','W':'𝘞','X':'𝘟','Y':'𝘠','Z':'𝘡','a':'𝘢','b':'𝘣','c':'𝘤','d':'𝘥','e':'𝘦','f':'𝘧','g':'𝘨','h':'𝘩','i':'𝘪','j':'𝘫','k':'𝘬','l':'𝘭','m':'𝘮','n':'𝘯','o':'𝘰','p':'𝘱','q':'𝘲','r':'𝘳','s':'𝘴','t':'𝘵','u':'𝘶','v':'𝘷','w':'𝘸','x':'𝘹','y':'𝘺','z':'𝘻'};function _0x2701(){const _0x514b12=['4298600DKkbGp','303198aAVoIq','2AKPDVG','length','812944YolvDj','Italic','629997OIEmWa','38454AobKHT','1001gQrgVk','5796963mfhOqG','1550440uvaIxe'];_0x2701=function(){return _0x514b12;};return _0x2701();}function _0x1ad0(_0x18bf22,_0x514a4d){const _0x270103=_0x2701();return _0x1ad0=function(_0x1ad0bc,_0x591cab){_0x1ad0bc=_0x1ad0bc-0xd7;let _0x703af2=_0x270103[_0x1ad0bc];return _0x703af2;},_0x1ad0(_0x18bf22,_0x514a4d);}function Italic(_0x14880b){const _0x410e1d=_0x1ad0;let _0x1e710a='';for(let _0x2871d2=0x0;_0x2871d2<_0x14880b[_0x410e1d(0xd7)];_0x2871d2++){let _0x4e8a46=_0x14880b[_0x2871d2];decorMap[_0x4e8a46]?_0x1e710a+=decorMap[_0x4e8a46]:_0x1e710a+=_0x4e8a46;}return _0x1e710a;}exports[_0x28e257(0xd9)]=Italic;
+let decorMap = {
+    A: "𝘈",
+    B: "𝘉",
+    C: "𝘊",
+    D: "𝘋",
+    E: "𝘌",
+    F: "𝘍",
+    G: "𝘎",
+    H: "𝘏",
+    I: "𝘐",
+    J: "𝘑",
+    K: "𝘒",
+    L: "𝘓",
+    M: "𝘔",
+    N: "𝘕",
+    O: "𝘖",
+    P: "𝘗",
+    Q: "𝘘",
+    R: "𝘙",
+    S: "𝘚",
+    T: "𝘛",
+    U: "𝘜",
+    V: "𝘝",
+    W: "𝘞",
+    X: "𝘟",
+    Y: "𝘠",
+    Z: "𝘡",
+    a: "𝘢",
+    b: "𝘣",
+    c: "𝘤",
+    d: "𝘥",
+    e: "𝘦",
+    f: "𝘧",
+    g: "𝘨",
+    h: "𝘩",
+    i: "𝘪",
+    j: "𝘫",
+    k: "𝘬",
+    l: "𝘭",
+    m: "𝘮",
+    n: "𝘯",
+    o: "𝘰",
+    p: "𝘱",
+    q: "𝘲",
+    r: "𝘳",
+    s: "𝘴",
+    t: "𝘵",
+    u: "𝘶",
+    v: "𝘷",
+    w: "𝘸",
+    x: "𝘹",
+    y: "𝘺",
+    z: "𝘻",
+  };
+  
+  function Italic(word) {
+    let decorname = "";
+    for (let i = 0; i < word.length; i++) {
+      let char = word[i];
+      if (decorMap[char]) {
+        decorname += decorMap[char];
+      }  else {
+       decorname += char;
+     }
+    }
+    return decorname;
+  }
+  
+  exports.Italic = Italic;

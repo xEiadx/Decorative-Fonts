@@ -1,1 +1,69 @@
-const _0x933fa1=_0x3cf5;(function(_0x161af0,_0x2c7a3f){const _0x299532=_0x3cf5,_0x3db461=_0x161af0();while(!![]){try{const _0x2d5649=-parseInt(_0x299532(0xbc))/0x1*(-parseInt(_0x299532(0xc3))/0x2)+-parseInt(_0x299532(0xbd))/0x3*(-parseInt(_0x299532(0xc1))/0x4)+-parseInt(_0x299532(0xc5))/0x5+parseInt(_0x299532(0xc0))/0x6+parseInt(_0x299532(0xbe))/0x7*(-parseInt(_0x299532(0xc4))/0x8)+parseInt(_0x299532(0xc2))/0x9+parseInt(_0x299532(0xbf))/0xa*(-parseInt(_0x299532(0xba))/0xb);if(_0x2d5649===_0x2c7a3f)break;else _0x3db461['push'](_0x3db461['shift']());}catch(_0x5e405c){_0x3db461['push'](_0x3db461['shift']());}}}(_0x289d,0xeebb7));function _0x3cf5(_0x11f3bf,_0x48bb6a){const _0x289dab=_0x289d();return _0x3cf5=function(_0x3cf5eb,_0x39b59a){_0x3cf5eb=_0x3cf5eb-0xb9;let _0x3fdf20=_0x289dab[_0x3cf5eb];return _0x3fdf20;},_0x3cf5(_0x11f3bf,_0x48bb6a);}let decorMap={'A':'𝐀','B':'𝐁','C':'𝐂','D':'𝐃','E':'𝐄','F':'𝐅','G':'𝐆','H':'𝐇','I':'𝐈','J':'𝐉','K':'𝐊','L':'𝐋','M':'𝐌','N':'𝐍','O':'𝐎','P':'𝐏','Q':'𝐐','R':'𝐑','S':'𝐒','T':'𝐓','U':'𝐔','V':'𝐕','W':'𝐖','X':'𝐗','Y':'𝐘','Z':'𝐙','a':'𝐚','b':'𝐛','c':'𝐜','d':'𝐝','e':'𝐞','f':'𝐟','g':'𝐠','h':'𝐡','i':'𝐢','j':'𝐣','k':'𝐤','l':'𝐥','m':'𝐦','n':'𝐧','o':'𝐨','p':'𝐩','q':'𝐪','r':'𝐫','s':'𝐬','t':'𝐭','u':'𝐮','v':'𝐯','w':'𝐰','x':'𝐱','y':'𝐲','z':'𝐳'};function serif(_0x2e632d){const _0xfd39c8=_0x3cf5;let _0x25bd88='';for(let _0x142cc1=0x0;_0x142cc1<_0x2e632d[_0xfd39c8(0xb9)];_0x142cc1++){let _0x25c018=_0x2e632d[_0x142cc1];decorMap[_0x25c018]&&(_0x25bd88+=decorMap[_0x25c018]);}return _0x25bd88;}function _0x289d(){const _0x533d2b=['6410770URQnZv','10473612iHphMB','4355916OsAgnM','14805000svHEoc','46EEFyBb','24XVKIFh','7749970vFCtSz','length','44zvatEu','serif','67472dWnAQu','3UwFcNA','2191672ZbBkjV'];_0x289d=function(){return _0x533d2b;};return _0x289d();}exports[_0x933fa1(0xbb)]=serif;
+let decorMap = {
+    A: "𝐀",
+    B: "𝐁",
+    C: "𝐂",
+    D: "𝐃",
+    E: "𝐄",
+    F: "𝐅",
+    G: "𝐆",
+    H: "𝐇",
+    I: "𝐈",
+    J: "𝐉",
+    K: "𝐊",
+    L: "𝐋",
+    M: "𝐌",
+    N: "𝐍",
+    O: "𝐎",
+    P: "𝐏",
+    Q: "𝐐",
+    R: "𝐑",
+    S: "𝐒",
+    T: "𝐓",
+    U: "𝐔",
+    V: "𝐕",
+    W: "𝐖",
+    X: "𝐗",
+    Y: "𝐘",
+    Z: "𝐙",
+    a: "𝐚",
+    b: "𝐛",
+    c: "𝐜",
+    d: "𝐝",
+    e: "𝐞",
+    f: "𝐟",
+    g: "𝐠",
+    h: "𝐡",
+    i: "𝐢",
+    j: "𝐣",
+    k: "𝐤",
+    l: "𝐥",
+    m: "𝐦",
+    n: "𝐧",
+    o: "𝐨",
+    p: "𝐩",
+    q: "𝐪",
+    r: "𝐫",
+    s: "𝐬",
+    t: "𝐭",
+    u: "𝐮",
+    v: "𝐯",
+    w: "𝐰",
+    x: "𝐱",
+    y: "𝐲",
+    z: "𝐳"
+  };
+  
+  function serif(word) {
+    let decorname = "";
+    for (let i = 0; i < word.length; i++) {
+      let char = word[i];
+      if (decorMap[char]) {
+        decorname += decorMap[char];
+      }  else {
+       decorname += char;
+     }
+    }
+    return decorname;
+  }
+  
+  exports.serif = serif;

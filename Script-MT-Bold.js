@@ -1,1 +1,70 @@
-const _0x1b1f81=_0x25ff;function _0x50bb(){const _0x4fbb57=['19887483DAKTjr','6228500diyqzO','36vlVBDx','974120BzCuJh','23348vGckBD','322904fDLxqg','153MbdYgQ','91KmDKQc','204486WaXnAZ','length','36831iKVZOw','12GMJQGX','MTBold'];_0x50bb=function(){return _0x4fbb57;};return _0x50bb();}function _0x25ff(_0x24a102,_0x3645bf){const _0x50bbe0=_0x50bb();return _0x25ff=function(_0x25ff66,_0x35cc14){_0x25ff66=_0x25ff66-0xc3;let _0x2ecd17=_0x50bbe0[_0x25ff66];return _0x2ecd17;},_0x25ff(_0x24a102,_0x3645bf);}(function(_0xe4cc93,_0x395296){const _0x11c156=_0x25ff,_0x1b41fd=_0xe4cc93();while(!![]){try{const _0xd40436=-parseInt(_0x11c156(0xcc))/0x1*(-parseInt(_0x11c156(0xc6))/0x2)+-parseInt(_0x11c156(0xc5))/0x3*(-parseInt(_0x11c156(0xca))/0x4)+-parseInt(_0x11c156(0xc9))/0x5+parseInt(_0x11c156(0xc3))/0x6*(parseInt(_0x11c156(0xcf))/0x7)+parseInt(_0x11c156(0xcd))/0x8*(-parseInt(_0x11c156(0xce))/0x9)+parseInt(_0x11c156(0xcb))/0xa+parseInt(_0x11c156(0xc8))/0xb;if(_0xd40436===_0x395296)break;else _0x1b41fd['push'](_0x1b41fd['shift']());}catch(_0xd3097d){_0x1b41fd['push'](_0x1b41fd['shift']());}}}(_0x50bb,0xa2df8));const decorMap={'A':'𝒜','B':'ℬ','C':'𝒞','D':'𝒟','E':'ℰ','F':'ℱ','G':'𝒢','H':'ℋ','I':'ℐ','J':'𝒥','K':'𝒦','L':'ℒ','M':'ℳ','N':'𝒩','O':'𝒪','P':'𝒫','Q':'𝒬','R':'ℛ','S':'𝒮','T':'𝒯','U':'𝒰','V':'𝒱','W':'𝒲','X':'𝒳','Y':'𝒴','Z':'𝒵','a':'𝒶','b':'𝒷','c':'𝒸','d':'𝒹','e':'ℯ','f':'𝒻','g':'ℊ','h':'𝒽','i':'𝒾','j':'𝒿','k':'𝓀','l':'𝓁','m':'𝓂','n':'𝓃','o':'ℴ','p':'𝓅','q':'𝓆','r':'𝓇','s':'𝓈','t':'𝓉','u':'𝓊','v':'𝓋','w':'𝓌','x':'𝓍','y':'𝓎','z':'𝓏'};function MTBold(_0x1823bc){const _0x50f201=_0x25ff;let _0x212364='';for(let _0x291f4a=0x0;_0x291f4a<_0x1823bc[_0x50f201(0xc4)];_0x291f4a++){let _0x6b1d99=_0x1823bc[_0x291f4a];decorMap[_0x6b1d99]&&(_0x212364+=decorMap[_0x6b1d99]);}return _0x212364;}exports[_0x1b1f81(0xc7)]=MTBold;
+const decorMap = {
+    A: "𝒜",
+    B: "ℬ",
+    C: "𝒞",
+    D: "𝒟",
+    E: "ℰ",
+    F: "ℱ",
+    G: "𝒢",
+    H: "ℋ",
+    I: "ℐ",
+    J: "𝒥",
+    K: "𝒦",
+    L: "ℒ",
+    M: "ℳ",
+    N: "𝒩",
+    O: "𝒪",
+    P: "𝒫",
+    Q: "𝒬",
+    R: "ℛ",
+    S: "𝒮",
+    T: "𝒯",
+    U: "𝒰",
+    V: "𝒱",
+    W: "𝒲",
+    X: "𝒳",
+    Y: "𝒴",
+    Z: "𝒵",
+    a: "𝒶",
+    b: "𝒷",
+    c: "𝒸",
+    d: "𝒹",
+    e: "ℯ",
+    f: "𝒻",
+    g: "ℊ",
+    h: "𝒽",
+    i: "𝒾",
+    j: "𝒿",
+    k: "𝓀",
+    l: "𝓁",
+    m: "𝓂",
+    n: "𝓃",
+    o: "ℴ",
+    p: "𝓅",
+    q: "𝓆",
+    r: "𝓇",
+    s: "𝓈",
+    t: "𝓉",
+    u: "𝓊",
+    v: "𝓋",
+    w: "𝓌",
+    x: "𝓍",
+    y: "𝓎",
+    z: "𝓏",
+  };
+  
+  
+  function MTBold(word) {
+    let decorname = "";
+    for (let i = 0; i < word.length; i++) {
+      let char = word[i];
+      if (decorMap[char]) {
+        decorname += decorMap[char];
+      }  else {
+       decorname += char;
+     }
+    }
+    return decorname;
+  }
+  
+  exports.MTBold = MTBold;
