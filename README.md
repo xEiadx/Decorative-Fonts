@@ -23,7 +23,7 @@ console.log(DecorativeFont.Fraktur("Decorative-Fonts")) // Output: '𝔇𝔢𝔠
 ```javascript
 const DecorativeFont = require("decorative-fonts.js")
 
-console.log(DecorativeFont.MTBold("Decorative-Fonts")) // Output: '𝔇𝔢𝔠𝔬𝔯𝔞𝔱𝔦𝔳𝔢-𝔉𝔬𝔫𝔱𝔰'
+console.log(DecorativeFont.MTBold("Decorative-Fonts")) // Output: '𝒟ℯ𝒸ℴ𝓇𝒶𝓉𝒾𝓋ℯ-ℱℴ𝓃𝓉𝓈'
 ```
 
 > Replace letters with Edwardian Font
